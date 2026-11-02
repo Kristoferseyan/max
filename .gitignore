@@ -1,0 +1,8 @@
+.venv/
+dl/
+models/
+state/
+journal/
+__pycache__/
+config.json
+mcp.json

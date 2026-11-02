@@ -1,0 +1,6 @@
+#!/bin/zsh
+cd "${0:A:h}"
+mkdir -p state
+pkill -f "$PWD/[m]ax.py" 2>/dev/null
+pkill -f "[w]hisper-server -m .*max" 2>/dev/null
+exec .venv/bin/python "$PWD/max.py" >> state/max.out 2>&1

@@ -1,0 +1,16 @@
+{
+  "name": "Tony",
+  "host": "myserver",
+  "server_desc": "home server (a Linux box)",
+  "sessions": {
+    "work": "the day job; windows run docker exec into the work-box container, usually with Claude Code running",
+    "side": "a side project; windows run docker exec into the side-box container",
+    "admin": "the host shell",
+    "serverclaude": "a Claude session on the host"
+  },
+  "blocked_sessions": [],
+  "blocked_containers": [],
+  "journal_areas": ["work", "side project", "the server", "personal projects"],
+  "background_files": ["~/.claude/CLAUDE.md"],
+  "whisper_hint": "Max, tmux, serverclaude, Jellyfin, Claude."
+}
